@@ -80,7 +80,7 @@ body{
   overflow: scroll;
   gap:60px;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   padding: 0px;
   background: linear-gradient(to top left ,indigo,black);
   color:white;
@@ -118,7 +118,7 @@ body{
   font-style: normal;
   position:relative;
   left:50%;
-  top:-20%;
+  top:-30%;
 }
 input[type=text],textarea{
 outline:none;
@@ -163,15 +163,19 @@ input[type=text]:focus{
   .menu_end{
     font-size: medium;
   }
+  .diamond-box{
+    width: 100%;
+  }
   .diamond-box::before{
     background-position-x: center;
+    background-position-y: 10%;
     background-size: 80%;
 
   }
   .order-form{
     left:10%;
     top:15rem;
-    width:60%;
+    width:80%;
     font-size: medium;
   }
   .gem-heading{
